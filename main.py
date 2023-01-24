@@ -33,7 +33,7 @@ def highest_upvote():
         largest_score)]
 
     print(
-        f"The highest score article is {highest_score_article_text} with a score of {larget_score} and the link is {highest_score_artocle_link}")
+        f"The highest score article is {highest_score_article_text} with a score of {largest_score} and the link is {highest_score_artocle_link}")
 
 
 # call the function
