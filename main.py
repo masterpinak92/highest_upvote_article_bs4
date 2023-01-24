@@ -24,13 +24,13 @@ def highest_upvote():
     article_score = [int((article_score_tag[i].getText()).split()[0])
                      for i in range(len(article_score_tag))]
     # find the highest score article
-    larget_score = max(article_score)
+    largest_score = max(article_score)
     # find the index of the highest score article text
     highest_score_article_text = article_title[article_score.index(
-        larget_score)]
+        largest_score)]
     # find the index of the highest score article link
     highest_score_artocle_link = article_link[article_score.index(
-        larget_score)]
+        largest_score)]
 
     print(
         f"The highest score article is {highest_score_article_text} with a score of {larget_score} and the link is {highest_score_artocle_link}")
